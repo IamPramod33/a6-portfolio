@@ -1,0 +1,41 @@
+.main-router-outlet {
+    padding-top: 120px;
+    z-index: 99;
+}
+#header-menu {
+    display: none;
+}
+.header-menu {
+    padding-top: 120px;
+    z-index: 999;
+    position: fixed;
+    height: calc(100vh - 120px);
+    color: #323232;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    .portfolio-options {
+        text-align: right;
+        li {
+            font-size: 48px;
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    .header-menu {
+        .portfolio-options {
+            li {
+                font-size: 40px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 991px) {
+    .header-menu {
+        .portfolio-options {
+            li {
+                font-size: 40px;
+            }
+        }
+    }
+}

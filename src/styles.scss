@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import '_variables';
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '_loader';
+
+body
+{
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #000;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+.tagline-regular{
+  font-family: 'Avenir Next Regular';
+}
+.tagline-bold{
+  font-family: 'Avenir Next Bold'
+}

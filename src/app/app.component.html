@@ -1,0 +1,19 @@
+<div *ngIf="headerInfo">
+  <div class="">
+    <app-header [headerInfo]='headerInfo'></app-header>
+  </div>
+</div>
+<div class="main-router-outlet" id="body-content">
+  <router-outlet></router-outlet>
+</div>
+<div class="header-menu col-12 wow fadeInRight" data-wow-duration="2s" id="header-menu">
+  <div class="container">
+    <div class="pull-right">
+        <ul class="navbar-nav portfolio-options">
+            <li class="nav-item">About Me</li>
+            <li class="nav-item">My Experience</li>
+            <li class="nav-item">My Works</li>
+        </ul>
+    </div>
+  </div>
+</div>
